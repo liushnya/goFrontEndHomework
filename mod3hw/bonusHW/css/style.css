@@ -1,0 +1,52 @@
+body {
+    background-image: url(../img/background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position-y: top;
+}
+
+.left-logo_palm {
+    margin-left: 600px;
+    margin-top: 50px;
+}
+
+.left-logo_sloghan {
+    margin-left: 460px;
+    margin-top: -75px;
+}
+
+.asia-travel {
+    margin-top: 0;
+    margin-left: 540px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 10px;
+}
+
+.contacts_list {
+    margin-left: 1100px;
+    margin-top: -45px;
+    list-style: none;
+}
+
+.contacts_list li {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 10px;
+}
+
+.contacts_list li:first-child {
+    font-weight: bold;
+    font-size: 11px;
+}
+
+.first-row-pictures_list, .second-row-pictures_list {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.first-row-pictures_list li, .second-row-pictures_list li {
+    display: inline-block;
+}
+
