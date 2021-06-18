@@ -1,4 +1,11 @@
-.main-content {
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+
+main {
     background-image: url(../img/background.png);
     margin: auto;
     background-repeat: no-repeat;
@@ -7,77 +14,70 @@
     width: 960px;
 }
 
-.left-logo-image {
-    margin-left: 213px;
-    padding-top: 42px;
-    position: relative;
+.left-logo {
+    display: flex;
+    flex-direction: column;
 }
 
 .left-logo_sloghan {
-    z-index: 1;
-    position: absolute;
-    left: -142px;
-    bottom: 41px;
+    margin-top: -75px;
+    margin-left: -90px;
 }
 
-.contacts {
+.left-logo_palm {
+    margin-left: 50px;
+    margin-top: 50px;
+    height: 147px;
+    width: 125px;
+}
+
+.logo-contacts {
     display: flex;
-    align-items: flex-end;
-    margin-top: -62px;
+    justify-content: space-between;
     margin-left: 155px;
     font-size: 10px;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 .contacts_list {
     margin-bottom: 0;
-    padding-left: 515px;
+    margin-top: 147px;
+    margin-right: 80px;
+    height: fit-content;
     list-style: none;
+}
+
+.contacts_list a, .main-content__pictures a {
+    text-decoration: none;
+    color: white;
+}
+
+.contacts_list a:visited, .main-content__pictures a:visited {
     color: white;
 }
 
 .asia-travel {
     margin-bottom: 0;
-    color: white;
 }
 
-.main-content__pictures {
-    display: flex;
-    flex-direction: column;
-}
-
-.first-row-pictures_list {
+.main-content-pictures__list {
     padding: 0;
     display: flex;
+    flex-wrap: wrap;
     list-style: none;
     justify-content: center;
 }
 
-.india, .nepal, .tibet, .bhutan, .sri-lanka, .maldives {
+.main-content-pictures__list li {
+    margin: 0 6px 30px;
+}
+
+.holiday-place {
     margin: 0;
 }
 
-.india, .nepal, .tibet, .bhutan, .sri-lanka, .maldives figcaption{
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
+.holiday-place figcaption{
     font-size: 12px;
     text-align: center;
-}
-
-.first-row-pictures_list li:nth-child(2) {
-    margin: 0 20px;
-}
-
-.second-row-pictures_list {
-    padding: 0;
-    margin-top: 32px;
-    display: flex;
-    list-style: none;
-    justify-content: center;
-}
-
-.second-row-pictures_list li:nth-child(2) {
-    margin: 0 20px;
 }
 
 .main-content__pictures img {
@@ -86,16 +86,13 @@
     -moz-border-image: url(../img/ramka.png) 7 7 7 7 repeat repeat;
     -webkit-border-image: url(../img/ramka.png) 7 7 7 7 repeat repeat;
     -o-border-image: url(../img/ramka.png) 7 7 7 7 repeat repeat;
-    border-image: url(../img/ramka.png) 7 7 7 7 repeat repeat;
-        
+    border-image: url(../img/ramka.png) 7 7 7 7 repeat repeat;    
 }
 
 .copyright {
+    margin-top: 140px;
     text-align: center;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 10px;
-    position: absolute;
     bottom: 0;
     left: 40%;
     right: 40%;
