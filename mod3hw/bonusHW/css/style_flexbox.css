@@ -19,12 +19,12 @@ main {
     flex-direction: column;
 }
 
-.left-logo_sloghan {
+.left-logo-sloghan {
     margin-top: -75px;
     margin-left: -90px;
 }
 
-.left-logo_palm {
+.left-logo-palm {
     margin-left: 50px;
     margin-top: 50px;
     height: 147px;
@@ -38,7 +38,7 @@ main {
     font-size: 10px;
 }
 
-.contacts_list {
+.contacts__list {
     margin-bottom: 0;
     margin-top: 147px;
     margin-right: 80px;
@@ -46,12 +46,12 @@ main {
     list-style: none;
 }
 
-.contacts_list a, .main-content__pictures a {
+.contacts__list a, .main-content-pictures a {
     text-decoration: none;
     color: white;
 }
 
-.contacts_list a:visited, .main-content__pictures a:visited {
+.contacts__list a:visited, .main-content-pictures a:visited {
     color: white;
 }
 
@@ -65,10 +65,7 @@ main {
     flex-wrap: wrap;
     list-style: none;
     justify-content: center;
-}
-
-.main-content-pictures__list li {
-    margin: 0 6px 30px;
+    gap: 55px 15px;
 }
 
 .holiday-place {
@@ -80,12 +77,9 @@ main {
     text-align: center;
 }
 
-.main-content__pictures img {
+.main-content-pictures img {
     border-style: solid;
     border-width: 5px 5px 5px 5px;
-    -moz-border-image: url(../img/ramka.png) 7 7 7 7 repeat repeat;
-    -webkit-border-image: url(../img/ramka.png) 7 7 7 7 repeat repeat;
-    -o-border-image: url(../img/ramka.png) 7 7 7 7 repeat repeat;
     border-image: url(../img/ramka.png) 7 7 7 7 repeat repeat;    
 }
 
@@ -93,7 +87,6 @@ main {
     margin-top: 140px;
     text-align: center;
     font-size: 10px;
-    bottom: 0;
     left: 40%;
     right: 40%;
 }
