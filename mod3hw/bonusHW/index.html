@@ -5,40 +5,63 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Module 3 Bonus HomeWork</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style_flexbox.css">
 </head>
 <body>
-    <div class="left-logo_palm">
-        <img class="" src="img/palm tree.png" alt="">
-    </div>
-    <div class="left-logo_sloghan">
-        <img class="" src="img/logo.png" alt="">
-    </div>
-    <p class="asia-travel">Путешествия по Азии</p>
-    <div class="contacts">
-        <ul class="contacts_list">
-            <li>Contact Us</li>
-            <li>+12345678910</li>
-            <li>info@asia-holidays.com</li>
-        </ul>
-    </div>
-    <div class="first-row-pictures">
-        <ul class="first-row-pictures_list">
-            <li><img src="img/india_photo.png" alt=""></li>
-            <li><img src="img/nepal_photo.png" alt=""></li>
-            <li><img src="img/tibet_photo.png" alt=""></li>
-        </ul>
-    </div>
-
-
-    <div class="second-row-pictures">
-        <ul class="second-row-pictures_list">
-            <li><img src="img/bhutan_photo.png" alt=""></li>
-            <li><img src="img/sri-lanka photo.png" alt=""></li>
-            <li><img src="img/maldives_photo.png" alt=""></li>
-        </ul>
-    </div>
-
-
+    <main>
+        <header class="logo-contacts">
+            <div class="left-logo">
+                <img class="left-logo-palm" src="img/palm tree.png" alt="palm-logo">
+                <img class="left-logo-sloghan" src="img/logo.png" alt="sloghan-logo">
+                <p class="asia-travel">Путешествия по Азии</p> 
+            </div>      
+            <ul class="contacts__list">
+                <li>Contact Us</li>
+                <li><a href="tel:+12345678910">+12345678910</a></li>
+                <li><a href="mailto:info@asia-holidays.com">info@asia-holidays.com</a></li>
+            </ul>
+        </header>
+        <div class="main-content-pictures">
+            <ul class="main-content-pictures__list">
+                <li>
+                    <figure class="holiday-place">
+                        <a href="#"><img src="img/india_photo.png" alt="india-photo">
+                        <figcaption>India</figcaption></a>
+                    </figure>
+                </li>
+                <li>
+                    <figure class="holiday-place">
+                        <a href="#"><img src="img/nepal_photo.png" alt="nepal-photo">
+                        <figcaption>Nepal</figcaption></a>
+                    </figure>
+                </li>
+                <li>
+                    <figure class="holiday-place">
+                        <a href="#"><img src="img/tibet_photo.png" alt="tibet-photo">
+                        <figcaption>Tibet</figcaption></a>
+                    </figure>
+                </li>    
+                <li>
+                    <figure class="holiday-place">
+                        <a href="#"><img src="img/bhutan_photo.png" alt="bhutan-photo">
+                        <figcaption>Bhutan</figcaption></a>
+                    </figure>
+                </li>
+                <li>
+                    <figure class="holiday-place">
+                        <a href="#"><img src="img/sri-lanka photo.png" alt="sri-lanka-photo">
+                        <figcaption>Sri-Lanka</figcaption></a>
+                    </figure>
+                </li>
+                <li>
+                    <figure class="holiday-place">
+                        <a href="#"><img src="img/maldives_photo.png" alt="maldives-photo">
+                        <figcaption>Maldives</figcaption></a>
+                    </figure>
+                </li>
+            </ul>
+        </div>
+        <p class="copyright">Copyright (c) asia-holidays.com. 2010</p>
+    </main>
 </body>
 </html>

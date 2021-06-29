@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+
+main {
+    background-image: url(../img/background.png);
+    margin: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 960px;
+}
+
+.left-logo {
+    display: flex;
+    flex-direction: column;
+}
+
+.left-logo-sloghan {
+    margin-top: -75px;
+    margin-left: -90px;
+}
+
+.left-logo-palm {
+    margin-left: 50px;
+    margin-top: 50px;
+    height: 147px;
+    width: 125px;
+}
+
+.logo-contacts {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 155px;
+    font-size: 10px;
+}
+
+.contacts__list {
+    margin-bottom: 0;
+    margin-top: 147px;
+    margin-right: 80px;
+    height: fit-content;
+    list-style: none;
+}
+
+.contacts__list a, .main-content-pictures a {
+    text-decoration: none;
+    color: white;
+}
+
+.contacts__list a:visited, .main-content-pictures a:visited {
+    color: white;
+}
+
+.asia-travel {
+    margin-bottom: 0;
+}
+
+.main-content-pictures__list {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+    gap: 55px 15px;
+}
+
+.holiday-place {
+    margin: 0;
+}
+
+.holiday-place figcaption{
+    font-size: 12px;
+    text-align: center;
+}
+
+.main-content-pictures img {
+    border-style: solid;
+    border-width: 5px 5px 5px 5px;
+    border-image: url(../img/ramka.png) 7 7 7 7 repeat repeat;    
+}
+
+.copyright {
+    margin-top: 140px;
+    text-align: center;
+    font-size: 10px;
+}
