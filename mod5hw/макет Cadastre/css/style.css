@@ -108,6 +108,7 @@ main {
     flex-direction: column;
     margin: auto;
     width: 550px;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .site-name {
@@ -115,6 +116,29 @@ main {
     margin-bottom: 2px;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.5);
+}
+
+.fb-btn {
+    background: linear-gradient(to bottom, #3e569e 5%, #2f4375 100%);
+    cursor: pointer;
+	font-size: 15px;
+	text-decoration: none;
+    line-height: 40px;
+    color: #fff;
+    width: 285px;
+    margin: 0 auto;
+    border: 1px solid #223e70;
+    position: relative;
+}
+
+.fb-btn::before {
+    content: 'f';
+    position: absolute;
+    left: 15px;
+    font-size: 22px;
+    font-weight: bold;
+    border-right: 1px solid #1f3d73;
+    padding-right: 15px;
 }
 
 .facebook-button {
