@@ -10,29 +10,28 @@
 </head>
 <body> 
     <header>
-        <div class="navigation-panel">
+        <nav class="navigation-panel">
             <ul class="navigation-panel__horisontal-list">
                 <a href="#"><li>Menu YouBike</li></a>
                 <a href="#"><li>Vender</li></a>
                 <a href="#"><li>Forum</li></a>
                 <a href="#"><li>Contato</li></a>
                 <a href="#"><li>Ajuda</li></a>
-                <a href="#"><li class="ofertas__li"><i class="fas fa-flag"></i> Minhas Ofertas</li></a>
-                <a href="#"><li class="ola__li">Ola! <span class="entrar__a">Entrar</span> Ou <span class="cadastre-se__a">Cadastre-se</span></li></a>
+                <a href="#"><li class="offers__li"><i class="fas fa-flag"></i> Minhas Ofertas</li></a>
+                <a href="#"><li class="hello__li">Ola! <span class="enter__a">Entrar</span> Ou <span class="register__a">Cadastre-se</span></li></a>
             </ul>
-        </div>
+        </nav>
     </header>
 
 
     <main>
         <div class="content-wrapper">
             <h2 class="site-name">Cadastre-se</h2>
-            <div class="facebook-button">
-                <a href="" class="facebook">fLog In with facebook<i class="fas fa-angle-right"></i></a>
+            <div class="facebook">
+                <button class="fb-btn">
+                    Log In with facebook<i class="fas fa-angle-right"></i>
+                </button>
             </div>
-            <button class="fb-btn">
-                Log In with facebook<i class="fas fa-angle-right"></i>
-            </button>
             <div class="horizontal-line">
                 <div class="left-border">
                     <div class="top-line"></div>
@@ -50,10 +49,13 @@
                 <input type="email" name="e-mail" class="data-input" id="" placeholder="Email Address">
                 <input type="password" name="password" class="data-input" id="" placeholder="Choose Password">
                 <input type="password" name="confirm-password" class="data-input" id="" placeholder="Confirm Password">
-                <p><input type="checkbox" class="updates__checkbox" name="" id="">Send me Youbike updates and tips</p>
+                <div class="send-updates">
+                    <input type="checkbox" class="updates__checkbox" name="updates__checkbox" id="">
+                    <label for="updates__checkbox">Send me Youbike updates and tips</label>
+                </div>
                 <button type="submit" class="create-account__button">Create my Account</button>
             </form>
-            <p class="policy">By clicking the button above, you agree to the Terms of Service<br>
+            <p class="policy">By clicking the button above, you agree to the Terms of Service
                 Xiew our Privacy Policy</p>
         </div>
     </main>

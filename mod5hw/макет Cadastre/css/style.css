@@ -30,11 +30,8 @@ body {
 
 .navigation-panel__horisontal-list {
     padding: 0;
-    margin: auto;
     display: flex;
     justify-content: flex-end;
-    position: relative;
-    width: 1215px;
     list-style: none;
     background-color: #085393;
 }
@@ -66,38 +63,37 @@ body {
     margin-right: 10px;
 }
 
-.ofertas__li {
+.offers__li {
     border-left: 1px solid #56a2dc;
     color: white;
 }
 
-.ola__li.ola__li {
+.hello__li.hello__li {
     margin-right: 20px;
     color: white
 }
 
-.ofertas__li:hover, .ola__li:hover {
+.offers__li:hover, .hello__li:hover {
     background: linear-gradient(0deg, rgba(46,122,196,1) 0%, rgba(81,177,220,1) 100%);
 }
 
-.entrar__a, .cadastre-se__a {
+.enter__a, .register__a {
     text-decoration: none;
     color: white;
 }
 
-.entrar__a:visited, .cadastre-se__a:visited {
+.enter__a:visited, .register__a:visited {
     color: white;
 }
 
-.entrar__a:hover, .cadastre-se__a:hover {
+.enter__a:hover, .register__a:hover {
     text-decoration: underline;
 }
 
 main {
     background-image: url(../img/background.png);
-    background-position: center;
+    background-size: 100%;
     background-repeat: no-repeat;
-    background-position-y: top;
     height: 1028px;
     display: flex;
     color: white;
@@ -107,8 +103,7 @@ main {
     display: flex;
     flex-direction: column;
     margin: auto;
-    width: 550px;
-    background-color: rgba(0, 0, 0, 0.5);
+    max-width: 550px;
 }
 
 .site-name {
@@ -116,6 +111,12 @@ main {
     margin-bottom: 2px;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.5);
+}
+
+.facebook {
+    padding:  40px 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
 }
 
 .fb-btn {
@@ -126,7 +127,6 @@ main {
     line-height: 40px;
     color: #fff;
     width: 285px;
-    margin: 0 auto;
     border: 1px solid #223e70;
     position: relative;
 }
@@ -139,39 +139,6 @@ main {
     font-weight: bold;
     border-right: 1px solid #1f3d73;
     padding-right: 15px;
-}
-
-.facebook-button {
-    padding: 40px 0;
-    display: flex;
-    justify-content: center;
-    background-color: rgba(0, 0, 0, 0.5);
-}
-
-.facebook-button a:visited {
-    color: white;
-}
-
-.facebook {
-    background: linear-gradient(to bottom, #3e569e 5%, #2f4375 100%);
-	cursor: pointer;
-	font-size: 15px;
-	text-decoration: none;
-    line-height: 40px;
-    width: 285px;
-    border: 1px solid #223e70 ;
-    box-shadow: inset 0 1px 0 0 #6ea3d8;
-    border-radius: 5px;
-    text-align: center;
-}
-
-.facebook::first-letter {
-    padding-right: 17px;
-    margin-right: 35px;
-    margin-left: -26px;
-    font-size: 22px;
-    font-weight: bold;
-    border-right: 1px solid #1f3d73;
 }
 
 .fas.fa-angle-right {
@@ -213,6 +180,8 @@ main {
 }
 
 .data-input {
+    width: 257px;
+    margin: auto;
     padding-left: 30px;
     height: 40px;
     vertical-align: middle;
@@ -250,12 +219,14 @@ main {
     width: fit-content;
     padding: 0 10px;
     margin: auto;
+    border: none;
 }
 
 .policy {
     display: block;
     text-align: center;
+    max-width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
-    font-size: 11px;
+    font-size: 12px;
     padding-bottom: 40px;
 }
