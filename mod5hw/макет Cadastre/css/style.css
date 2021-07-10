@@ -1,0 +1,232 @@
+@font-face {
+    font-family: 'Helvetica Neue Regular';
+    src: url('../fonts/helveticaneuecyr-thin-webfont.eot');
+    src: url('../fonts/helveticaneuecyr-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/helveticaneuecyr-thin-webfont.woff2') format('woff2'),
+         url('../fonts/helveticaneuecyr-thin-webfont.woff') format('woff'),
+         url('../fonts/helveticaneuecyr-thin-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue Regular';
+    src: local('Helvetica Neue Bold'), local('Helvetica-Neue-Bold'),
+        url('../fonts/HelveticaNeueCyr-Bold.woff2') format('woff2'),
+        url('../fonts/HelveticaNeueCyr-Bold.woff') format('woff'),
+        url('../fonts/HelveticaNeueCyr-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Helvetica Neue Regular", Helvetica, sans-serif;
+}
+
+.navigation-panel__horisontal-list {
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    background-color: #085393;
+}
+
+.navigation-panel__horisontal-list li {
+    padding: 10px 15px;
+    color: #54a8e1;
+}
+
+.navigation-panel__horisontal-list a {
+    text-decoration: none;
+    color: #54a8e1;
+}
+
+.navigation-panel__horisontal-list li:hover {
+    background-color: #4eabda;
+    color: white;
+}
+
+.navigation-panel__horisontal-list a:hover {
+    color: white;
+}
+
+.navigation-panel__horisontal-list a:visited {
+    color: white;
+}
+
+.fas.fa-flag {
+    margin-right: 10px;
+}
+
+.offers__li {
+    border-left: 1px solid #56a2dc;
+    color: white;
+}
+
+.hello__li.hello__li {
+    margin-right: 20px;
+    color: white
+}
+
+.offers__li:hover, .hello__li:hover {
+    background: linear-gradient(0deg, rgba(46,122,196,1) 0%, rgba(81,177,220,1) 100%);
+}
+
+.enter__a, .register__a {
+    text-decoration: none;
+    color: white;
+}
+
+.enter__a:visited, .register__a:visited {
+    color: white;
+}
+
+.enter__a:hover, .register__a:hover {
+    text-decoration: underline;
+}
+
+main {
+    background-image: url(../img/background.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 1028px;
+    display: flex;
+    color: white;
+}
+
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: 550px;
+}
+
+.site-name {
+    padding: 15px 0;
+    margin-bottom: 2px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.facebook {
+    padding:  40px 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.fb-btn {
+    background: linear-gradient(to bottom, #3e569e 5%, #2f4375 100%);
+    cursor: pointer;
+	font-size: 15px;
+	text-decoration: none;
+    line-height: 40px;
+    color: #fff;
+    width: 285px;
+    border: 1px solid #223e70;
+    position: relative;
+}
+
+.fb-btn::before {
+    content: 'f';
+    position: absolute;
+    left: 15px;
+    font-size: 22px;
+    font-weight: bold;
+    border-right: 1px solid #1f3d73;
+    padding-right: 15px;
+}
+
+.fas.fa-angle-right {
+    margin-left: 30px;
+}
+
+.horizontal-line {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.left-border, .right-border {
+    margin-top: 9px;
+    display: flex;
+    flex-direction: column;
+    width: 23%;
+}
+
+.top-line  {
+    border-bottom: solid 1px #666;
+}
+
+.bottom-line {
+    border-bottom: solid 1px black;
+}
+
+.horizontal-line p {
+    padding: 0 3px;
+    color: #999;
+}
+
+.login__form {
+    padding: 40px 132px 20px 132px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.5);
+    gap: 20px;
+}
+
+.data-input {
+    width: 257px;
+    margin: auto;
+    padding-left: 30px;
+    height: 40px;
+    vertical-align: middle;
+    background-color: black;
+    color: white;
+    border: 0;
+    border-bottom: 1px solid #484847;
+}
+
+.data-input:focus {
+    background: radial-gradient(circle, rgba(27,82,136,1) 0%, rgba(31,72,110,1) 100%);
+    text-decoration: none;
+    box-shadow: 0px 0px 8px 2px #508bb4;
+    outline: none;
+}
+
+.data-input::placeholder {
+    color: white;
+}
+
+.login__form p {
+    font-size: 12px;
+}
+
+.updates__checkbox {
+    margin-right: 5px;
+}
+
+.create-account__button {
+    background: linear-gradient(0deg, rgba(46,122,196,1) 0%, rgba(79,173,219,1) 100%);
+    color: white;
+    height: 40px;
+    text-align: center;
+    border-radius: 5px;
+    width: fit-content;
+    padding: 0 10px;
+    margin: auto;
+    border: none;
+}
+
+.policy {
+    display: block;
+    text-align: center;
+    max-width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 12px;
+    padding-bottom: 40px;
+}
