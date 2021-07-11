@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+}
+
+.picture {
+    table-layout: fixed;
+    width: 700px;
+    margin: auto;
+    border-collapse: collapse;
+    border: 13px solid white;
+}
+
+tr, td {
+    border: 12px solid black;
+    empty-cells: show;
+}
+
+.first-row {
+    height: 70px;
+}
+
+.second-row, .third-row, .fourth-row, .fifth-row, .sixth-row, .seventh-row {
+    height: 100px;
+}
+
+.eighth-row, .nineth-row {
+    height: 70px;
+}
+
+.right-vertical-cell {
+    border-right: hidden;
+    background-color: yellow;
+}
+
+.right-small-cell {
+    border-bottom: hidden;
+    background-color: yellow;
+}
+
+.another-small-cell {
+    border-bottom: hidden;
+}
+
+.orange-square {
+    background-color: orangered;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.black {
+    background-color: black;
+}
+
+.blue {
+    background-color: blue;
+}
